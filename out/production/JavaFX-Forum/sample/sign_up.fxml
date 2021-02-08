@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerSignUp">
+   <children>
+      <Pane prefHeight="406.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="308.0" layoutY="13.0" prefHeight="70.0" prefWidth="226.0" text="Sign Up" textAlignment="CENTER">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Label layoutX="314.0" layoutY="115.0" prefHeight="27.0" prefWidth="74.0" text="Username" />
+            <TextField fx:id="userNameTXTField" layoutX="314.0" layoutY="155.0" prefHeight="26.0" prefWidth="226.0" />
+            <Label layoutX="314.0" layoutY="220.0" prefHeight="27.0" prefWidth="74.0" text="Password" />
+            <PasswordField fx:id="passwordField" layoutX="314.0" layoutY="261.0" prefHeight="26.0" prefWidth="226.0" />
+            <Button layoutX="460.0" layoutY="340.0" mnemonicParsing="false" onAction="#signUpButtonAction" prefHeight="26.0" prefWidth="74.0" text="Sign up" />
+            <Label fx:id="warningUsername" layoutX="314.0" layoutY="185.0" prefHeight="39.0" prefWidth="226.0" textFill="RED" />
+            <Label fx:id="warningPassword" layoutX="314.0" layoutY="303.0" prefHeight="16.0" prefWidth="226.0" textFill="RED" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
