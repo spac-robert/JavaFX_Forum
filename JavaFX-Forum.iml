@@ -7,8 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="javafx-swt" level="application" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="library" name="javafx-swt" level="application" />
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/mysql-connector-java-8.0.23.jar!/" />
